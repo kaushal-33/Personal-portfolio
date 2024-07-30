@@ -1,0 +1,14 @@
+#changingText {
+    animation: cursoranim 1s linear infinite;
+    color: #19de8e;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+@keyframes cursoranim {
+    50% {
+      border-right: 1px solid rgba(0, 0, 0, 0);
+    }
+  }

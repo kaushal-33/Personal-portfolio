@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-Portfolio Bootstrap Made</title>
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- style css link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- fonts css link -->
+    <link rel="stylesheet" href="./assets/fonts/roboto/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/ubuntu/stylesheet.css">
+    <!-- remix-icon-cdn-link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- AOS css link -->
+    <link rel="stylesheet" href="./assets/css/aos.min.css">
+</head>
+
+<body>
+    <!-- preloader -->
+    <div id="preloader">
+        <div class="loader_line"></div>
+    </div>
+    <!-- particle-js -->
+    <div id="particles-js"></div>
+    <!-- introducton-section -->
+    <div class="hero-intro text-secondary">
+        <div class="container" data-aos="fade-up-left">
+            <h1 class="fw-bold user-select-none">KAUSHAL VARMA</h1>
+            <h4 class="f-roboto mb-3 gap-3 user-select-none">
+                I'm a passionate
+                <span>
+                    FULLSTACK
+                    DEVELOPER
+                </span>
+                from Surat
+            </h4>
+            <!-- header-start -->
+            <header class="z-3">
+                <nav class="main-navbar">
+                    <ul class="d-flex gap-5 mt-3 d-lg-flex d-none">
+                        <li class="position-relative">
+                            <a href="./index.html" class="text-secondary fw-bold">Home</a>
+                        </li>
+                        <li class="position-relative">
+                            <a href="./about.html" class="text-secondary fw-bold">About</a>
+                        </li>
+                        <li class="position-relative">
+                            <a href="./resume.html" class="text-secondary fw-bold">Resume</a>
+                        </li>
+                        <li class="position-relative">
+                            <a href="./project.html" class="text-secondary fw-bold">Projects</a>
+                        </li>
+                        <li class="position-relative">
+                            <a href="./blog.html" class="text-secondary fw-bold">Blogs</a>
+                        </li>
+                        <li class="position-relative">
+                            <a href="./contact.html" class="text-secondary fw-bold">Contact</a>
+                        </li>
+                    </ul>
+                    <button id="menu-btn" class="d-lg-none z-3">
+                        <span class="text-secondary fs-3"><i class="ri-menu-add-line"></i></span>
+                    </button>
+                </nav>
+                <!-- mobile-navbar -->
+                <nav class="mobile-navbar display-none">
+                    <div class="container my-5 position-relative">
+                        <button id="menu-hide-btn">
+                            <span class="text-white fs-4">
+                                <i class="ri-close-large-line"></i>
+                            </span>
+                        </button>
+                        <ul class="">
+                            <li class="position-relative already">
+                                <a href="./index.html" class="text-secondary fw-bold">Home</a>
+                            </li>
+                            <li class="position-relative">
+                                <a href="./about.html" class="text-secondary fw-bold">About</a>
+                            </li>
+                            <li class="position-relative">
+                                <a href="./resume.html" class="text-secondary fw-bold">Resume</a>
+                            </li>
+                            <li class="position-relative">
+                                <a href="./project.html" class="text-secondary fw-bold">Projects</a>
+                            </li>
+                            <li class="position-relative">
+                                <a href="./blog.html" class="text-secondary fw-bold">Blogs</a>
+                            </li>
+                            <li class="position-relative">
+                                <a href="./contact.html" class="text-secondary fw-bold">Contact</a>
+                            </li>
+                            <li class="logo">
+                                <img src="./assets/images/logo.png" alt="LOGO" width="100%">
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+                <!-- social media contacts -->
+                <ul class="flex-wrap gap-3 mt-3 social-contact">
+                    <li>
+                        <a href="" class="fs-4 text-secondary d-inline-block">
+                            <i class="ri-twitter-x-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/kaushal.varma.31105/"
+                            class="fs-4 text-secondary d-inline-block">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/__varma_ji__/" class="fs-4 text-secondary d-inline-block">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/kaushal-varma-83034b2b8"
+                            class="fs-4 text-secondary d-inline-block">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                    </li>
+                </ul>
+            </header>
+            <!-- header-ends -->
+        </div>
+    </div>
+    <!-- bootstrap script link -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery script link -->
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#menu-btn').on('click', function () {
+                $('.mobile-navbar').toggle(500);
+            });
+            $('#menu-hide-btn').on('click', function () {
+                $('.mobile-navbar').slideUp(500);
+            });
+        })
+        $(window).on('load', function () {
+            $('#preloader').fadeOut(); // fade out the loader
+        });
+    </script>
+    <!-- particle-js-link -->
+    <script src="./assets/js/particle-js/particles.min.js"></script>
+    <script src="./assets/js/particle-js/particle-script.js"></script>
+    <!-- AOS Script -->
+    <script src="./assets/js/aos.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

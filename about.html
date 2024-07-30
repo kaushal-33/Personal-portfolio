@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-Portfolio Bootstrap Made</title>
+    <!-- style css link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- fonts css link -->
+    <link rel="stylesheet" href="./assets/fonts/roboto/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/ubuntu/stylesheet.css">
+    <!-- remix-icon-cdn-link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- swiper-css-link -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <!-- AOS css link -->
+    <link rel="stylesheet" href="./assets/css/aos.min.css">
+</head>
+
+<body>
+    <!-- preloader -->
+    <div id="preloader">
+        <div class="loader_line"></div>
+    </div>
+    <!-- header-start -->
+    <section class="main-header">
+        <div class="container">
+            <div class="header d-flex justify-content-between align-items-center flex-wrap">
+                <!-- navbar -->
+                <div class="logo-2">
+                    <img src="./assets/images/logo.png" alt="logo" width="100%">
+                </div>
+                <ul class="d-flex gap-4 d-lg-flex d-none mb-0">
+                    <li class="position-relative">
+                        <a href="./index.html" class="text-secondary fw-bold">Home</a>
+                    </li>
+                    <li class="position-relative already">
+                        <a href="./about.html" class="text-secondary fw-bold">About</a>
+                    </li>
+                    <li class="position-relative">
+                        <a href="./resume.html" class="text-secondary fw-bold">Resume</a>
+                    </li>
+                    <li class="position-relative">
+                        <a href="./project.html" class="text-secondary fw-bold">Projects</a>
+                    </li>
+                    <li class="position-relative">
+                        <a href="./blog.html" class="text-secondary fw-bold">Blogs</a>
+                    </li>
+                    <li class="position-relative">
+                        <a href="./contact.html" class="text-secondary fw-bold">Contact</a>
+                    </li>
+                </ul>
+                <!-- mobile-btn -->
+                <div id="menu-btn2" class="d-lg-none z-3 fs-3 text-secondary">
+                    <span class="d-flex"><i class="ri-menu-add-line"></i></span>
+                </div>
+                <!-- social-media -->
+                <ul class="social-link d-flex flex-wrap align-items-center mb-0 gap-2 ">
+                    <li class="position-relative">
+                        <a href="https://www.facebook.com/kaushal.varma.31105/"
+                            class="fs-5 text-secondary d-inline-block">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+                    </li>
+                    <li class="position-relative">
+                        <a href="https://www.instagram.com/__varma_ji__/" class="fs-5 text-secondary d-inline-block">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </li>
+                    <li class="position-relative">
+                        <a href="https://www.linkedin.com/in/kaushal-varma-83034b2b8"
+                            class="fs-5 text-secondary d-inline-block">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                    </li>
+                    <li class="position-relative">
+                        <a href="" class="fs-5 text-secondary d-inline-block">
+                            <i class="ri-twitter-x-line"></i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- mobile version header -->
+                <nav class="mobile-navbar display-none">
+                    <div class="container my-5 position-relative">
+                        <button id="menu-hide-btn">
+                            <span class="text-white fs-4">
+                                <i class="ri-close-large-line"></i>
+                            </span>
+                        </button>
+                        <ul class="">
+                            <li class="position-relative">
+                                <a href="./index.html" class="text-secondary fw-bold">Home</a>
+                            </li>
+                            <li class="position-relative already">
+                                <a href="./about.html" class="text-secondary fw-bold">About</a>
+                            </li>
+                            <li class="position-relative">
+                                <a href="./resume.html" class="text-secondary fw-bold">Resume</a>
+                            </li>
+                            <li class="position-relative">
+                                <a href="./project.html" class="text-secondary fw-bold">Projects</a>
+                            </li>
+                            <li class="position-relative">
+                                <a href="./blog.html" class="text-secondary fw-bold">Blogs</a>
+                            </li>
+                            <li class="position-relative">
+                                <a href="./contact.html" class="text-secondary fw-bold">Contact</a>
+                            </li>
+                            <li class="logo">
+                                <img src="./assets/images/logo.png" alt="LOGO" width="100%">
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <!-- scroll-top-button -->
+    <div class="scrollbtn display-none">
+        <div class="scroll-top rounded-circle c-pointer">
+            <span class="text-success fs-3 d-flex"><i class="ri-arrow-up-circle-fill"></i></span>
+        </div>
+    </div>
+    <main>
+        <section class="bg-black">
+            <div class="container">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-8">
+                        <h2 class="text-secondary text-secondary text-center fs-1 f-roboto pt-5">About</h2>
+                        <p class="text-secondary fs-5 text-center my-3">I am a results-oriented Fullstack Developer with
+                            [1 years] of expertise developing reliable websites. Possessing a solid background in
+                            front-end and back-end programming, I thrive at utilizing a broad range of abilities to
+                            produce scalable and responsive solutions. My enthusiasm for clear code and problem-solving
+                            motivates me to constantly investigate new frameworks and technologies in order to improve
+                            user experience and project efficiency.
+                        </p>
+                        <p class="text-center hover-btn">
+                            <a class="available-btn text-white text-center">
+                                AVAILABLE FOR HIRE
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- new-section -->
+        <section class="bg-weird py-4">
+            <div class="container">
+                <h5 class="mb-0 text-secondary fw-bold">Home / <span class="text-success">About</span></h5>
+            </div>
+        </section>
+        <!-- intro-section -->
+        <section class="bg-black">
+            <div class="container">
+                <div class="row py-3 justify-content-center align-items-center">
+                    <div class="col-xl-4" data-aos="fade-up">
+                        <div class="overflow-hidden rounded">
+                            <img src="./assets/images/about-img.jpg" alt="image" width="100%">
+                        </div>
+                    </div>
+                    <div class="col-xl-5 py-2">
+                        <div data-aos="fade-left">
+                            <h3 class="f-roboto text-secondary">
+                                PROFESSIONAL<br>FULLSTACK <span id="changingText" class="text-success"></span>
+                            </h3>
+                            <p class="text-secondary fw-bold my-3">Aside from coding, I like to contribute to
+                                open-source projects and keep up with new and developing technologies. I'm a firm
+                                believer in lifelong learning and constantly looking to broaden my skill set in order to
+                                provide innovative solutions.
+                            </p>
+                            <ul class="">
+                                <li class="text-secondary fw-bold d-flex align-items-center"><span
+                                        class="text-success fs-4"><i class="ri-arrow-right-s-line"></i></span>Birthday:
+                                    16 August 2000</li>
+                                <li class="text-secondary fw-bold d-flex align-items-center"><span
+                                        class="text-success fs-4"><i class="ri-arrow-right-s-line"></i></span>Age: 24
+                                </li>
+                                <li class="text-secondary fw-bold d-flex align-items-center text-wrap"><span
+                                        class="text-success fs-4"><i class="ri-arrow-right-s-line"></i></span>Website:
+                                    WWW.kaushalkiwebsite.netlify.app</li>
+                                <li class="text-secondary fw-bold d-flex align-items-center"><span
+                                        class="text-success fs-4"><i class="ri-arrow-right-s-line"></i></span>Degree:
+                                    HSC/Intermediate</li>
+                                <li class="text-secondary fw-bold d-flex align-items-center"><span
+                                        class="text-success fs-4"><i class="ri-arrow-right-s-line"></i></span>Phone:
+                                    +91-8160149401</li>
+                                <li class="text-secondary fw-bold d-flex align-items-center"><span
+                                        class="text-success fs-4"><i class="ri-arrow-right-s-line"></i></span>Email:
+                                    varmakaushal33@gmail.com
+                                </li>
+                                <li class="text-secondary fw-bold d-flex align-items-center"><span
+                                        class="text-success fs-4"><i class="ri-arrow-right-s-line"></i></span>City:
+                                    Surat, Gujarat</li>
+                                <li class="text-secondary fw-bold d-flex align-items-center"><span
+                                        class="text-success fs-4"><i class="ri-arrow-right-s-line"></i></span>Freelance:
+                                    Available</li>
+                            </ul>
+                            <p class="text-secondary fw-bold my-3">Experienced Fullstack Developer with a keen attention
+                                to detail and [1 years] of experience. Expertise in creating and executing online
+                                platforms. Skilled in front-end and adept at looking to utilize skills in a team setting
+                                for back-end development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial-section -->
+        <section class="bg-black pb-5 position-relative">
+            <div class="container">
+                <h5 class="mb-0">
+                    <span class="text-secondary fw-bolder ray position-relative f-roboto">TESTIMONIALS</span>
+                </h5>
+                <h2 class="text-secondary">What they are saying</h2>
+                <!-- feedback-card -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <!-- card 1 -->
+                        <div class="swiper-slide ">
+                            <div class="p-4 m-4 border-main">
+                                <h5 class="text-center text-warning"><i class="ri-star-fill"></i><i
+                                        class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                        class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                                </h5>
+                                <p class="text-white text-center">
+                                    Shows a high level of skill in front-end and back-end web development.They possess
+                                    extensive knowledge in HTML, CSS, JavaScript, and multiple frameworks.such as
+                                    React.js, Angular, and Vue.js. Their comprehension of adaptable designThe principles
+                                    they follow guarantee that the websites they create are easy to use
+                                    on all devices.
+                                </p>
+                                <div class="profile-img object-fit-contain">
+                                    <img src="./assets/images/profile-1.jpeg" alt="profile-image" width="100%">
+                                </div>
+                                <h5 class="text-center text-white my-2 mb-0">Anant Shah</h5>
+                                <h6 class="text-secondary text-center">Freelancer</h6>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="swiper-slide ">
+                            <div class="p-4 m-4 border-main">
+                                <h5 class="text-center text-warning"><i class="ri-star-fill"></i><i
+                                        class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                        class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                                </h5>
+                                <p class="text-white text-center">
+                                    Consistently tackles challenges with a problem-solving attitude. They possess showed
+                                    inventiveness and originality in creating strategies that enhance user
+                                    experience Gain expertise and optimize procedures. Their skill in troubleshooting
+                                    and
+                                    fixing errors.Troubleshooting guarantees that there is little to no disruption in
+                                    operations and problems are resolved quickly and effectively.
+                                </p>
+                                <div class="profile-img">
+                                    <img src="./assets/images/profile-2.jpg" alt="profile-image" width="100%">
+                                </div>
+                                <h5 class="text-center text-white my-2 mb-0">Suraj Yadav</h5>
+                                <h6 class="text-secondary text-center">Web Designer</h6>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="swiper-slide ">
+                            <div class="p-4 m-4 border-main">
+                                <h5 class="text-center text-warning"><i class="ri-star-fill"></i><i
+                                        class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                        class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                                </h5>
+                                <p class="text-white text-center">
+                                    In team settings, Kaushal is an effective communicator and collaborator. They
+                                    actively contribute ideas, provide constructive feedback, and work well with
+                                    cross-functional teams to achieve project goals. Their clear communication style
+                                    facilitates understanding and alignment among team members, fostering a productive
+                                    work environment.
+                                </p>
+                                <div class="profile-img">
+                                    <img src="./assets/images/profile-4.jpeg" alt="profile-image" width="100%">
+                                </div>
+                                <h5 class="text-center text-white my-2 mb-0">Anjali Varma</h5>
+                                <h6 class="text-secondary text-center">Freelancer</h6>
+                            </div>
+                        </div>
+                        <!-- card 4 -->
+                        <div class="swiper-slide ">
+                            <div class="p-4 m-4 border-main">
+                                <h5 class="text-center text-warning"><i class="ri-star-fill"></i><i
+                                        class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                        class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                                </h5>
+                                <p class="text-white text-center">
+                                    Kaushal demonstrates a firm dedication to ongoing learning and keeping current with
+                                    the latest developments.
+
+                                    current developments in the field and most effective methods. They are quick to
+                                    adjust to new technologies and readily embrace them.
+
+                                    utilizing frameworks to improve project delivery by adding them to their set of
+                                    skills
+
+                                    results.
+                                </p>
+                                <div class="profile-img">
+                                    <img src="./assets/images/profile-5.jpeg" alt="profile-image" width="100%">
+                                </div>
+                                <h5 class="text-center text-white my-2 mb-0">Divyadarshan Das</h5>
+                                <h6 class="text-secondary text-center">DevOPs</h6>
+                            </div>
+                        </div>
+                        <!-- card 5 -->
+                        <div class="swiper-slide ">
+                            <div class="p-4 m-4 border-main">
+                                <h5 class="text-center text-warning"><i class="ri-star-fill"></i><i
+                                        class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                        class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                                </h5>
+                                <p class="text-white text-center">
+                                    Kaushal is skilled in server-side languages such as Node.js and Python on the
+                                    backend. (Django, Flask), as well as Java. RESTful APIs have been effectively
+                                    incorporated by
+                                    them linked with various databases such as MySQL, MongoDB, and PostgreSQL. Their
+                                    capacity
+                                    to enhancing database performance and efficaciously handling information leads to
+                                    significant improvementsthe functioning of online applications.
+                                </p>
+                                <div class="profile-img">
+                                    <img src="./assets/images/profile-3.jpeg" alt="profile-image" width="100%">
+                                </div>
+                                <h5 class="text-center text-white my-2 mb-0">Aryan Patel</h5>
+                                <h6 class="text-secondary text-center">Fullstack Developer</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination position-relative"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-weird py-4 position-relative" data-aos="fade-up">
+        <p class="text-secondary mb-0 d-flex justify-content-center align-items-center">© Copyright <img
+                src="./assets/images/logo.png" alt="" width="70px" style="filter: invert(1);"> All Rights Reserved</p>
+        <ul class="d-flex justify-content-center gap-4 footer-social-link mb-0">
+            <li class="position-relative">
+                <a href="https://www.facebook.com/kaushal.varma.31105/" class="fs-5 text-secondary d-inline-block">
+                    <i class="ri-facebook-circle-line"></i>
+                </a>
+            </li>
+            <li class="position-relative">
+                <a href="https://www.instagram.com/__varma_ji__/" class="fs-5 text-secondary d-inline-block">
+                    <i class="ri-instagram-line"></i>
+                </a>
+            </li>
+            <li class="position-relative">
+                <a href="https://www.linkedin.com/in/kaushal-varma-83034b2b8"
+                    class="fs-5 text-secondary d-inline-block">
+                    <i class="ri-linkedin-box-line"></i>
+                </a>
+            </li>
+            <li class="position-relative">
+                <a href="" class="fs-5 text-secondary d-inline-block">
+                    <i class="ri-twitter-x-line"></i>
+                </a>
+            </li>
+        </ul>
+        <p class="text-center mb-0 text-secondary f-roboto">Designed by <span class="text-success fw-bold">Kaushal
+                Varma</span>
+        </p>
+    </footer>
+    <!-- jquery-link -->
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#menu-btn2').on('click', function () {
+                $('.mobile-navbar').toggle(500);
+            });
+            $('#menu-hide-btn').on('click', function () {
+                $('.mobile-navbar').slideUp(500);
+            });
+            // scroll-button
+            $('.scroll-top').on('click', function () {
+                $('html').scrollTop(0);
+            })
+        })
+        $(window).scroll(function () {
+            if (scrollY > 200) {
+                $('.scrollbtn').fadeIn();
+            } else {
+                $('.scrollbtn').fadeOut();
+            }
+        })
+        $(window).on('load', function () {
+            $('#preloader').fadeOut(); // fade out the loader
+        });
+    </script>
+    <!-- headline-js-script -->
+    <script src="./assets/js/headline.js"></script>
+    <!-- swiper-js-script -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            loop: true,
+            effect: "coverflow",
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false
+            },
+            breakpoints: {
+
+                200: {
+                    slidesPerView: 1,
+                },
+                360: {
+                    slidesPerView: 1,
+                },
+                640: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    </script>
+    <!-- AOS Script -->
+    <script src="./assets/js/aos.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

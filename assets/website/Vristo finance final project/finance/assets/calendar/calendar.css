@@ -1,0 +1,15 @@
+*{
+    font-family: 'Nunito';
+}
+
+.fc-toolbar-title{
+    font-size: 18px !important;
+}
+
+thead{
+    background-color: #f0f2f7;
+}
+
+.fc-scrollgrid-sync-inner{
+    padding: 10px;
+}
