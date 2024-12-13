@@ -28,23 +28,23 @@ main {
     display: none;
 }
 
-#o-flow{
+#o-flow {
     overflow-y: none !important;
 }
 
-.border-green{
+.border-green {
     border: 1px solid #27a776 !important;
 }
 
-.c-pointer{
+.c-pointer {
     cursor: pointer;
 }
 
-.user-none{
+.user-none {
     user-select: none !important;
 }
 
-.position-sticky{
+.position-sticky {
     position: sticky !important;
 }
 
@@ -181,12 +181,13 @@ main {
         width: 0%;
     }
 }
+
 /* preloader-end */
 
 /* introduction div */
 
 .hero-intro {
-    background-image: url(../images/hero\ wallpaper.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgb(0, 0, 0, 0.8)), url(../images/me.jpg);
     width: 100vw;
     height: 100vh;
     background-position: center;
@@ -503,7 +504,7 @@ nav ul li:hover a {
 
 }
 
-.scroll-top{
+.scroll-top {
     width: 50px;
     height: 50px;
     display: flex;
@@ -520,7 +521,7 @@ nav ul li:hover a {
 /* resume-section */
 
 .bg-image {
-    background-image: url(../images/hero\ wallpaper.jpg);
+    background-image: url(../images/me.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -605,13 +606,13 @@ textarea {
 
 /* project-section */
 
-.project-card{
+.project-card {
     transition: .3s all ease-in-out;
     position: relative;
     border: 1px solid #27a776;
 }
 
-.project-card::after{
+.project-card::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -626,29 +627,32 @@ textarea {
     z-index: 1;
 }
 
-.project-card:hover::after{
+.project-card:hover::after {
     visibility: visible;
     opacity: 1;
     height: 100%;
 }
 
-.note{
+.note {
     transition: .3s all ease-in-out !important;
 }
-.project-card:hover .note{
+
+.project-card:hover .note {
     color: rgb(255, 0, 0) !important;
     font-weight: 500;
 }
 
-.project-card:hover h6, .project-card:hover p{
+.project-card:hover h6,
+.project-card:hover p {
     color: white !important;
 }
 
-.project-card img{
+.project-card img {
     transition: .3s all ease-in-out;
     filter: blur(1px);
 }
-.project-card:hover img{
+
+.project-card:hover img {
     transform: scale(1.1, 1.1);
     filter: blur(0);
 }
